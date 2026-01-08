@@ -37,3 +37,11 @@ ADR entries ensure **traceability, consistency, and clarity** throughout the evo
 - The **ADR** explains *how and why* architectural decisions are taken to meet those requirements.
 
 Together, they provide a clear, professional, and maintainable documentation framework aligned with modern software engineering practices.
+
+
+## Documentation Tree
+- [SRS.md](SRS.md)
+- [ADR.md](ADR.md)
+
+## Read more
+- [Architecture Decision Records (ADR) template by Joel Parker Henderson](https://github.com/joelparkerhenderson/architecture-decision-record?tab=readme-ov-file)
