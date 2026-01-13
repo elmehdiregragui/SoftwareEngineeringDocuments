@@ -1,4 +1,4 @@
-# ADR-<NN> — <Titre de la décision>
+# Architecture Decision Records ADR-<NN> — <Titre de la décision>
 **Statut :** Proposed | Accepted | Rejected | Superseded  
 **Date :** <YYYY-MM-DD>  
 **Décideurs :** <noms>  
