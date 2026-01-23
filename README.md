@@ -17,6 +17,7 @@ et les vétérinaires, avec une organisation claire et évolutive.
 ## Utilisateurs
 - Administrateur
 - Vétérinaire
+- Réceptionnsite
 - Client / Propriétaire
 
 ## Équipe
