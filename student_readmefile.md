@@ -1,49 +1,46 @@
-# Nom du projet
+# Site web de clinique vétérinaire
 
 ## Présentation générale
-Ce projet consiste à développer **[description très courte du produit]**. 
-Garder la présentation courte et concise.
+Ce projet consiste à développer un site web pour la gestion d’une clinique vétérinaire.
+La présentation vise à rester simple, claire et orientée vers les besoins réels.
 
-L’objectif principal est de **[objectif du produit / problème résolu]**.
+L’objectif principal est de centraliser la gestion des rendez-vous, des animaux,
+des propriétaires et des horaires des vétérinaires.
 
 ---
 
 ## Équipe
-- Prénom Nom - Num Étudiant
-- Prénom Nom - Num Étudiant
-- Prénom Nom - Num Étudiant
+- Elmehdi Regragui
 
 ---
 
 ## Produit cible
 Le produit final est destiné à :
-* Type d’utilisateur : [ex. joueur, client, entreprise]
-* Plateforme cible : [PC, Web, Mobile, VR, etc.]
+* Type d’utilisateur : administrateur, réceptionniste, vétérinaire, client
+* Plateforme cible : Web
+
 ---
 
 ## Structure du dépôt
 - `/code` : contient l’ensemble du code source du projet
     - Contient uniquement le code source
-    - Organisation libre (Web, Backend, etc.)
-    - Le code doit être compilable/exécutable selon le contexte du cours
+    - Organisation libre (frontend, backend, etc.)
+    - Le code sera exécutable selon le contexte du cours
 - `/documentation` : contient tous les documents de conception et de suivi
-    - Cahier des charges (cahier_des_charges.md)
+    - Software Requirements Specification (SRS.md)
     - Registre des décisions architecturales (ADR.md)
-    - Rapport d’avancement (rapport_avancement.md ou .docx)
+    - Rapport d’avancement
     - Diagrammes UML, captures d’écran, tests, etc.
-    - Agile artefacts (Product Backlog, Sprint Backlog, UserBurndown Chart, etc)
-    - etc...
-
 
 ---
 
 ## Documentation
 Les documents suivants sont disponibles dans le dossier `/documentation` :
-- Cahier des charges
+- SRS (exigences du système)
 - Registre des décisions architecturales (ADR)
 - Rapport d’avancement
 
 ---
 
 ## Statut du projet
-Projet en cours – version académique.
+Projet en cours – version académique (Phase I).
