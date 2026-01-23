@@ -1,69 +1,95 @@
-# Architecture Decision Records ADR-<NN> — <Titre de la décision>
-**Statut :** Proposed | Accepted | Rejected | Superseded  
-**Date :** <YYYY-MM-DD>  
-**Décideurs :** <noms>  
-**Contexte projet :** <nom du projet / module>
+# Architecture Decision Records  
+ADR-001 — Choix du type d’application
+
+**Statut :** Accepted  
+**Date :** 2026-01-22  
+**Décideurs :** Équipe du projet  
+**Contexte projet :** Site web de clinique vétérinaire
 
 ---
 
 ## 1. Contexte
-- **Problème / besoin :** <ce qui déclenche la décision>
-- **Contraintes :** <techniques, temps, équipe, outils>
-- **Forces en présence :** <qualité, performance, simplicité, risques>
+- **Problème / besoin :**  
+La clinique vétérinaire doit gérer plusieurs types d’utilisateurs
+(administrateur, réceptionniste, vétérinaire, client) ayant besoin
+d’un accès simple et centralisé au système.
+
+- **Contraintes :**  
+Projet académique avec un temps limité, nécessité d’une solution accessible sans installation complexe.
+
+- **Forces en présence :**  
+Simplicité d’accès, maintenabilité, évolutivité et clarté de
+l’architecture.
 
 ---
 
 ## 2. Décision
-> Décrire la décision en 1–3 phrases.
-- Nous choisissons : <solution retenue>
-- Pour : <objectif>
+> Le système sera développé sous forme d’une application web.
+
+- Je choisis : une application web  
+- Pour : permettre un accès facile et centralisé à tous les utilisateurs
 
 ---
 
 ## 3. Alternatives considérées
-### Option A — <nom>
-- **Avantages :** <...>
-- **Inconvénients :** <...>
 
-### Option B — <nom>
-- **Avantages :** <...>
-- **Inconvénients :** <...>
+### Option A — Application desktop
+- **Avantages :**  
+  - Performances locales  
+- **Inconvénients :**  
+  - Installation sur chaque poste  
+  - Maintenance plus complexe
+
+### Option B — Application web
+- **Avantages :**  
+  - Accessible depuis un navigateur  
+  - Aucune installation requise  
+  - Facilité de mise à jour
+- **Inconvénients :**  
+  - Dépendance à une connexion internet
 
 ---
 
 ## 4. Justification (Pourquoi cette décision ?)
-- <raison 1>
-- <raison 2>
-- <raison 3>
+- Accès simple pour tous les rôles utilisateurs  
+- Maintenance et déploiement facilités  
+- Adapté aux contraintes du projet académique
 
 ---
 
 ## 5. Conséquences
+
 ### Positives
-- <...>
+- Centralisation des données  
+- Accès multiplateforme  
+- Évolution facilitée du système
 
 ### Négatives / Risques
-- <...>
+- Dépendance à la connexion internet  
+- Sécurité à prendre en compte dès les phases suivantes
 
 ### Impact sur l’architecture / le code
-- <modules touchés, patterns concernés, refactoring prévu>
+- Mise en place d’une architecture en couches  
+- Séparation entre interface web, logique métier et données
 
 ---
 
 ## 6. Plan d’implémentation (court)
-- [ ] Étape 1 : <...>
-- [ ] Étape 2 : <...>
-- [ ] Étape 3 : <...>
+-  Définir l’architecture générale  
+-  Identifier les rôles et permissions  
+-  Implémenter un prototype web simple
 
 ---
 
 ## 7. Validation
 - **Comment vérifier que c’est bon ?**
-  - <tests / métriques / critères d’acceptation>
+  - Le système est accessible via un navigateur  
+  - Les rôles utilisateurs sont clairement définis  
+  - Le prototype répond aux besoins de base
 
 ---
 
 ## 8. Liens
-- UML : <lien/nom de fichier>
-- Issue/Tâche : <lien>
-- Référence : <doc officiel / cours>
+- UML : à venir (Phase II)  
+- Issue/Tâche : non applicable  
+- Référence : Cours Software Engineering
