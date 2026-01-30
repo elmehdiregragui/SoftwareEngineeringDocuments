@@ -22,6 +22,7 @@ et les vétérinaires, avec une organisation claire et évolutive.
 
 ## Équipe
 - Elmehdi Regragui
+- Aya Chahid
 
 ## État d’avancement
 Phase I – Lancement du projet
