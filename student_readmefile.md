@@ -11,6 +11,7 @@ des propriétaires et des horaires des vétérinaires.
 
 ## Équipe
 - Elmehdi Regragui
+- Aya Chahid
 
 ---
 
