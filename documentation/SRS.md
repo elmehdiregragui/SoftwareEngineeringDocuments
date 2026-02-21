@@ -1,13 +1,11 @@
 # Software Requirements Specification (SRS)
 ## Projet : Site web de clinique vétérinaire
 
-
 ## 1. Introduction
 Ce document décrit les exigences du site web de clinique vétérinaire
 développé dans le cadre du cours Software Engineering. Le système vise
 à soutenir la gestion des rendez-vous, des animaux, des propriétaires
 et des vétérinaires.
-
 
 
 ## 2. Objectif du système
