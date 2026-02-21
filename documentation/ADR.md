@@ -2,7 +2,7 @@
 ADR-001 — Choix du type d’application
 
 **Statut :** Accepted  
-**Date :** 2026-01-22  
+**Date :** 2026-02-19  
 **Décideurs :** Équipe du projet  
 **Contexte projet :** Site web de clinique vétérinaire
 
@@ -88,8 +88,3 @@ l’architecture.
   - Le prototype répond aux besoins de base
 
 ---
-
-## 8. Liens
-- UML : à venir (Phase II)  
-- Issue/Tâche : non applicable  
-- Référence : Cours Software Engineering
